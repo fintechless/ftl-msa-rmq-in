@@ -1,0 +1,7 @@
+msa:
+  rmq-in:
+    name: ftl_msa_rmq_in.msa.run
+    dpl_name: msa-rmq-in-dpl
+    svc_name:  msa-rmq-in-svc
+    igr_name: msa-rmq-in-igr
+    health_check_path: /msa/rmq/in/_healthy
